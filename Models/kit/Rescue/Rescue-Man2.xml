@@ -1,0 +1,27 @@
+<PropertyList>
+
+    <!--
+        Property of Gerard Robin (C) 2008-2010
+    Copyright 
+    -->
+
+	<path>rescue-man2.ac</path>
+
+	<effect>
+		<inherits-from>../../Effects/interior/bo105-interior</inherits-from>
+		<object-name>Rescue-Man</object-name>
+		<object-name>Bras-Gauche</object-name>
+		<object-name>Bras-Gauche.001</object-name>
+		<object-name>Casque</object-name>
+		<object-name>Casque-Int</object-name>
+		<object-name>Corps</object-name>
+		<object-name>Jambes</object-name>
+		<object-name>Main-Gauche</object-name>
+		<object-name>Main-Gauche.001</object-name>
+		<object-name>Tete</object-name>
+		<object-name>block</object-name>
+		<object-name>block.001</object-name>
+		<object-name>object</object-name>
+	</effect>
+
+</PropertyList>

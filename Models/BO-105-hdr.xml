@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>bo105.ac</path>
+	
+	
+
+	
+
+	<effect>
+    <inherits-from>Aircraft/BO-105/Models/Effects/reflect-uber</inherits-from>
+    <object-name>fuselage</object-name>
+		<object-name>door_front_L</object-name>
+			<object-name>door_front_R</object-name>
+		<object-name>door_back_L</object-name>
+		<object-name>door_back_R</object-name>
+	<object-name>door_stop_L</object-name>
+		<object-name>door_stop_R</object-name>
+	<object-name>reardoor_L</object-name>
+		<object-name>reardoor_R</object-name>
+		<object-name>tail</object-name>
+		<object-name>tailstab_L</object-name>
+		<object-name>tailstab_R</object-name>
+		<object-name>skirt</object-name>
+		<object-name>funny_box</object-name>
+	<object-name>ear_L</object-name>
+		<object-name>ear_R</object-name>
+	   	<object-name>windowcoverL</object-name>
+		<object-name>windowcoverR</object-name>
+		<object-name>wire_cutter</object-name>
+		<object-name>windowcoverR</object-name>
+		<object-name>wire_cutter</object-name>
+		<object-name>skid_L</object-name>
+		<object-name>skid_R</object-name>
+	
+  </effect>	
+
+	
+
+
+	<!-- effects -->    
+	 <effect>
+       <inherits-from>Effects/glass</inherits-from>
+		<object-name>windshield_L_internal</object-name>
+		<object-name>windshield_R_internal</object-name>
+		<object-name>glass_fixed_internal</object-name>
+		<object-name>glass_front_R_internal</object-name>
+		<object-name>glass_front_L_internal</object-name>
+		<object-name>glass_back_L_internal</object-name>
+		<object-name>glass_back_R_internal</object-name>
+		<object-name>glass_back_windows_in</object-name>
+    </effect>
+	
+	
+	 <animation>
+  <type>select</type>
+        <object-name>windshield_L_internal</object-name>
+		<object-name>windshield_R_internal</object-name>
+		<object-name>glass_fixed_internal</object-name>
+		<object-name>glass_front_R_internal</object-name>
+		<object-name>glass_front_L_internal</object-name>
+		<object-name>glass_back_L_internal</object-name>
+		<object-name>glass_back_R_internal</object-name>
+		<object-name>glass_back_windows_in</object-name>
+  <condition>
+
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   
+  </condition>
+ </animation>
+        
+
+	<effect>
+		 <inherits-from>Aircraft/BO-105/Models/Effects/glassout</inherits-from>
+		<object-name>windshield_L</object-name>
+		<object-name>windshield_R</object-name>
+		<object-name>glass_fixed</object-name>
+		<object-name>glass_front_L</object-name>
+		<object-name>glass_front_R</object-name>
+		<object-name>glass_back_L</object-name>
+		<object-name>glass_back_R</object-name>
+		<object-name>glass_back_windows</object-name>
+
+	
+	</effect>
+	
+	<animation>
+  <type>select</type>
+  	<object-name>windshield_L</object-name>
+		<object-name>windshield_R</object-name>
+		<object-name>glass_fixed</object-name>
+		<object-name>glass_front_L</object-name>
+		<object-name>glass_front_R</object-name>
+		<object-name>glass_back_L</object-name>
+		<object-name>glass_back_R</object-name>
+		<object-name>glass_back_windows</object-name>
+  <condition>
+   <not>
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   </not>
+  </condition>
+ </animation>
+	
+
+	  <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <condition>
+            <property>sim/rendering/rembrandt/enabled</property>
+        </condition>
+		 <object-name>tailblur1</object-name>
+	   <object-name>tailblur2</object-name>
+      	<object-name>tailrotor_blade1</object-name>
+		<object-name>tailrotor_blade2</object-name>
+    </effect> 
+	
+	
+	 <animation>
+	<type>material</type>
+		 <object-name>tailblur1</object-name>
+	   <object-name>tailblur2</object-name>
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>0.016</factor>
+			<offset>-0.25</offset>
+			<max>0.9</max>
+		</transparency>
+		<threshold>0.001</threshold>
+    </animation>
+	
+	 <animation>
+	<type>material</type>
+	<object-name>tailrotor_blade1</object-name>
+		<object-name>tailrotor_blade2</object-name>
+		<global type="bool">true</global>
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>-0.0045</factor>
+			<offset>1</offset>
+			<max>1</max>
+			
+		</transparency>
+    </animation>
+	
+
+
+</PropertyList>
+
+<!-- z=0 at approximately 30cm above ground plate -->

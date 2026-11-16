@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">Royal Bahraini Air Force</name>
+      <texture>Liveries/RBAF.png</texture>
+    </livery>
+    <bo105>
+   
+     <rotor>
+      <texture>Textures/Rotor/orange.png</texture>
+     </rotor>
+    </bo105>
+  </model>
+ <rendering>
+    <refl_correction type="string">-0.6</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

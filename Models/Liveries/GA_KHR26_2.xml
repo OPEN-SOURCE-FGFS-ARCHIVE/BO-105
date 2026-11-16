@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">German Army KHR26 Anniversary</name>
+      <texture>Liveries/GA_KHR26_2.png</texture>
+    </livery>
+   
+  </model>
+ <rendering>
+    <refl_correction type="string">-0.6</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

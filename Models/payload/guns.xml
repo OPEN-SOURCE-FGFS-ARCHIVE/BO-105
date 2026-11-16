@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>100</max-m>
+    </animation>
+<model>
+<name>pilot1</name>
+<path>Aircraft/BO-105/Models/People/mil/pilots.xml</path>
+<offsets>
+<x-m> -3 </x-m>
+<y-m>  -0.0 </y-m>
+<z-m> 0.2 </z-m>
+</offsets>
+</model>
+
+<model>
+<name>pilot2</name>
+<path>Aircraft/BO-105/Models/People/mil/pilots.xml</path>
+<offsets>
+<x-m> -3 </x-m>
+<y-m> -0.82 </y-m>
+<z-m> 0.2</z-m>
+</offsets>
+</model>
+<!-- Crew seats -->
+
+<!--  front row -->
+
+
+
+<model>
+<path>Aircraft/BO-105/Models/kit/Seats/milbench.ac</path>
+<offsets>
+<x-m>-0.3</x-m>
+<y-m>0.1</y-m>
+<z-m>0.5</z-m>
+<heading-deg>00</heading-deg>
+</offsets>
+</model>
+
+
+
+
+<!--guns-->
+
+<model>
+<path>Aircraft/BO-105/Models/guns.ac</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0</y-m>
+<z-m> 0</z-m>
+</offsets>
+</model>
+
+
+
+</PropertyList>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">The Glasgow Polis</name>
+      <texture>Liveries/SPOL.png</texture>
+    </livery>
+   <bo105>
+	   <hdr>true</hdr>
+		<als>false</als>
+		</bo105>
+  </model>
+  <rendering>
+    <refl_correction type="string">-0.2</refl_correction>
+	<fresnel-factor>0.7</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

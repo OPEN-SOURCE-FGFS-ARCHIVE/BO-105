@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>fueltest.ac</path>
+
+	<effect>
+		<inherits-from>../../Models/Effects/interior/bo105-interior</inherits-from>
+		<object-name>Switch</object-name>
+		<object-name>base</object-name>
+		<object-name>face</object-name>
+	</effect>
+
+  <animation>
+    <object-name>Switch</object-name>
+    <object-name>base</object-name>
+   
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>Switch</object-name>
+    <object-name>base</object-name>
+    
+    <emission>
+       <red>0.001</red>
+        <green>0.001</green>
+        <blue>0.001</blue>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+ 
+
+</PropertyList>
+
+

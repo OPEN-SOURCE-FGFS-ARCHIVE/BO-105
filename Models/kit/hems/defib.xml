@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>defib.ac</path>
+
+	<effect>
+		<inherits-from>../../Effects/interior/bo105-interior</inherits-from>
+		<object-name>Blender_export__defib.ac</object-name>
+		<object-name>Bag</object-name>
+	</effect>
+
+</PropertyList>

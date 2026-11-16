@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+
+ <path>clicks.ac</path>
+
+
+
+
+ <animation>
+  <type>pick</type>
+  <object-name>click-L</object-name>
+   <object-name>click-R</object-name>
+  <visible>true</visible>
+   <action>
+     <name>Decrease - scrollwheel</name>
+     <button>3</button>
+     <repeatable>true</repeatable>
+     <binding>
+       <command>property-adjust</command>
+     <property>controls/lighting/instrument-lights-norm</property>
+       <step>-0.1</step>
+       <min>0</min>
+       <max>1.0</max>
+       <wrap>0</wrap>
+     </binding>
+   </action>
+   <action>
+     <name>Increase - scrollwheel</name>
+     <button>4</button>
+     <repeatable>true</repeatable>
+     <binding>
+       <command>property-adjust</command>
+    <property>controls/lighting/instrument-lights-norm</property>
+       <step>0.1</step>
+       <min>0</min>
+       <max>1.0</max>
+       <wrap>0</wrap>
+     </binding>
+   </action>
+ </animation>
+
+
+
+</PropertyList>
+
+

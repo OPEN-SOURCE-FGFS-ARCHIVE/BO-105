@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>200</max-m>
+    </animation>
+<model>
+<name>pilot1</name>
+<path>Aircraft/BO-105/Models/People/pilot.xml</path>
+<offsets>
+<x-m> 2.1 </x-m>
+<y-m>  1.1 </y-m>
+<z-m> 0.82 </z-m>
+</offsets>
+
+</model>
+<!-- Passenger seats -->
+
+
+<model>
+<path>Aircraft/BO-105/Models/backseat.ac</path>
+<offsets>
+<x-m>0</x-m>
+<y-m>0</y-m>
+<z-m>0</z-m>
+
+</offsets>
+</model>
+
+
+
+
+</PropertyList>

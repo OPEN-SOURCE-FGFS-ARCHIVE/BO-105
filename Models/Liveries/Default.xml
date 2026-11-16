@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">Default (BMI, D-HGSC)</name>
+      <texture>bo105.png</texture>
+    </livery>
+    <bo105>
+     <hdr>true</hdr>
+		<als>false</als>
+     <rotor>
+      <texture>Textures/Rotor/orange.png</texture>
+     </rotor>
+    </bo105>
+  </model>
+  
+  <rendering>
+    <refl_correction type="string">-0.3</refl_correction>
+	<fresnel-factor>0.7</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>chassis.ac</path>
+        
+  <animation>
+  <type>material</type>
+   <object-name>celling</object-name>
+   <object-name>luggagewalls</object-name>
+   <object-name>luggagefloor</object-name>
+   <object-name>mittleframe</object-name>
+   <object-name>blah.005</object-name>
+   <object-name>frontframe</object-name>
+   <object-name>blah.002</object-name>
+   <object-name>air</object-name>
+   <object-name>blah.008</object-name>
+   <object-name>blah.001</object-name>
+   <object-name>rivet</object-name>
+   <object-name>Bolt</object-name>
+  </animation>
+
+	<effect>
+		<inherits-from>Effects/interior/bo105-interior</inherits-from>
+		 
+		<object-name>celling</object-name>
+                <object-name>luggagewalls</object-name>
+                <object-name>luggagefloor</object-name>
+                <object-name>mittleframe</object-name>
+                <object-name>blah.005</object-name>
+                <object-name>frontframe</object-name>
+                <object-name>blah.002</object-name>
+                <object-name>air</object-name>
+                <object-name>blah.008</object-name>
+                <object-name>blah.001</object-name>
+                <object-name>rivet</object-name>
+                <object-name>Bolt</object-name>
+                               
+	</effect>
+
+</PropertyList>

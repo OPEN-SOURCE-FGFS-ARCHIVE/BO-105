@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<path>overhead.ac</path>
+        
+        <animation>
+            <type>material</type>
+            <object-name>blockholderA</object-name>
+            <object-name>Bolt3</object-name>
+            <object-name>wire</object-name>
+            <object-name>rubber</object-name>
+            <object-name>Bolt2</object-name>
+            <object-name>srew</object-name>
+            <object-name>rivet.001</object-name>
+            <object-name>blockholderB</object-name>
+            <object-name>block</object-name>
+            <object-name>buttons</object-name>
+            <object-name>switchholder</object-name>
+            <object-name>holder</object-name>
+            <object-name>holder.001</object-name>
+            <object-name>switch.006</object-name>
+            <object-name>switch.005</object-name>
+            <object-name>switch.004</object-name>
+            <object-name>switch.003</object-name>
+            <object-name>switch.002</object-name>
+            <object-name>switch.001</object-name>
+            <object-name>switch.007</object-name>
+            <object-name>switch.008</object-name>
+            <object-name>switch.009</object-name>
+            <object-name>switch.010</object-name>
+            <object-name>switch.011</object-name>
+            <object-name>switch.012</object-name>
+            <object-name>switch.013</object-name>
+            <object-name>switch.014</object-name>
+            <object-name>switch.015</object-name>
+            <object-name>knob</object-name>
+        </animation>
+
+	<effect>
+            <inherits-from>Effects/interior/bo105-interior</inherits-from>
+            <object-name>blockholderA</object-name>
+            <object-name>Bolt3</object-name>
+            <object-name>wire</object-name>
+            <object-name>rubber</object-name>
+            <object-name>Bolt2</object-name>
+            <object-name>srew</object-name>
+            <object-name>rivet.001</object-name>
+            <object-name>blockholderB</object-name>
+            <object-name>block</object-name>
+            <object-name>buttons</object-name>
+            <object-name>switchholder</object-name>
+            <object-name>holder</object-name>
+            <object-name>holder.001</object-name>
+            <object-name>switch.006</object-name>
+            <object-name>switch.005</object-name>
+            <object-name>switch.004</object-name>
+            <object-name>switch.003</object-name>
+            <object-name>switch.002</object-name>
+            <object-name>switch.001</object-name>
+            <object-name>switch.007</object-name>
+            <object-name>switch.008</object-name>
+            <object-name>switch.009</object-name>
+            <object-name>switch.010</object-name>
+            <object-name>switch.011</object-name>
+            <object-name>switch.012</object-name>
+            <object-name>switch.013</object-name>
+            <object-name>switch.014</object-name>
+            <object-name>switch.015</object-name>
+            <object-name>knob</object-name>
+	</effect>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>200</max-m>
+	</animation>
+	
+	<!-- switches -->
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/switches/strobe.xml</path>
+		<offsets>
+			<x-m>-1.328</x-m>
+			<y-m>0.022</y-m>
+			<z-m>0.91</z-m>
+			<heading-deg>180</heading-deg>
+			<pitch-deg>90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/switches/searchlight.xml</path>
+		<offsets>
+			<x-m>-1.328</x-m>
+			<y-m>0.005</y-m>
+			<z-m>0.91</z-m>
+			<heading-deg>180</heading-deg>
+			<pitch-deg>90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/switches/landing-lights.xml</path>
+		<offsets>
+			<x-m>-1.328</x-m>
+			<y-m>-0.01</y-m>
+			<z-m>0.91</z-m>
+			<heading-deg>180</heading-deg>
+			<pitch-deg>90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/switches/beacon.xml</path>
+		<offsets>
+			<x-m>-1.328</x-m>
+			<y-m>-0.028</y-m>
+			<z-m>0.91</z-m>
+			<heading-deg>180</heading-deg>
+			<pitch-deg>90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/switches/nav.xml</path>
+		<offsets>
+			<x-m>-1.328</x-m>
+			<y-m>-0.046</y-m>
+			<z-m>0.91</z-m>
+			<heading-deg>180</heading-deg>
+			<pitch-deg>90</pitch-deg>
+		</offsets>
+	</model>
+
+</PropertyList>

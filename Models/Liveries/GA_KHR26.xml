@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">Garman Army KHR 26</name>
+      <texture>Liveries/GA_KHR26.png</texture>
+    </livery>
+   <bo105>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</bo105>
+  </model>
+   <rendering>
+    <refl_correction type="string">-0.6</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

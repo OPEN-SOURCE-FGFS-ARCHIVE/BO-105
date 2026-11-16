@@ -1,0 +1,1378 @@
+<?xml version="1.0"?>
+<PropertyList>
+ 
+ <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>100</max-m>
+    </animation>
+	
+	
+ 
+ <!--== instruments == -->
+	<model>
+		
+		<!-- compass -->
+		<path>Aircraft/BO-105/Instruments/comp/comp.xml</path>
+		<offsets>
+			<x-m>-2.165</x-m>
+			<y-m>0</y-m>
+			<z-m>0.70</z-m>
+		</offsets>
+	</model>
+
+	<!-- top row -->
+	
+	<model>
+		<name>pitot1</name>
+		<path>Aircraft/BO-105/Instruments/Switch/pito-lights.xml</path>
+		<offsets>
+			<x-m>-2.253</x-m>
+			<y-m>-0.07</y-m>
+			<z-m>0.59</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+		<model>
+		<name>firetest1</name>
+		<path>Aircraft/BO-105/Instruments/Switch/firetest.xml</path>
+		<offsets>
+			<x-m>-2.253</x-m>
+			<y-m>-0.055</y-m>
+			<z-m>0.59</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		<name>pitot2</name>
+		<path>Aircraft/BO-105/Instruments/Switch/pito-lights2.xml</path>
+		<offsets>
+			<x-m>-2.253</x-m>
+			<y-m>0.09</y-m>
+			<z-m>0.59</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		<name>firetest2</name>
+		<path>Aircraft/BO-105/Instruments/Switch/firetest1.xml</path>
+		<offsets>
+			<x-m>-2.253</x-m>
+			<y-m>0.073</y-m>
+			<z-m>0.59</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<model>
+		<name>VOR1</name>
+		<path>Aircraft/BO-105/Instruments/vor/vor.xml</path>
+		<offsets>
+			<x-m>-2.251</x-m>
+			<y-m>-0.080</y-m>
+			<z-m>0.529</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.15</y-offset>
+    <z-offset>1.15</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>ASI</name>
+		<path>Aircraft/BO-105/Instruments/asi/asi.xml</path>
+		<offsets>
+			<x-m>-2.253</x-m>
+			<y-m>0.097</y-m>
+			<z-m>0.529</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>AI</name>
+		<path>Aircraft/BO-105/Instruments/ai/ai.xml</path>
+		<offsets>
+			<!-- fix me: set back for now -->
+			<x-m>-2.253</x-m>
+			<y-m>0.207</y-m>
+			<z-m>0.531</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>ALT</name>
+		<path>Aircraft/BO-105/Instruments/alt/alt.xml</path>
+		<offsets>
+			<x-m>-2.246</x-m>
+			<y-m>0.307</y-m>
+			<z-m>0.533</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- 2nd row -->
+	<model>
+		<name>ADF</name>
+		<path>Aircraft/BO-105/Instruments/adf/adf.xml</path>
+		<offsets>
+			<x-m>-2.243</x-m>
+			<y-m>-0.079</y-m>
+			<z-m>0.424</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>TORQUE</name>
+		<path>Aircraft/BO-105/Instruments/torque/torque.xml</path>
+		<offsets>
+			<x-m>-2.2355</x-m>
+			<y-m>0.01</y-m>
+			<z-m>0.416</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>TACH</name>
+		<path>Aircraft/BO-105/Instruments/tach/tach.xml</path>
+		<offsets>
+			<x-m>-2.241</x-m>
+			<y-m>0.097</y-m>
+			<z-m>0.424</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+<model>
+		<name>HI</name>
+		<path>Aircraft/BO-105/Instruments/kcs55/ki525a.xml</path>
+		<offsets>
+			<x-m>-2.241</x-m>
+			<y-m>0.207</y-m>
+			<z-m>0.424</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		
+	</model>
+	
+		<model>
+		
+		<path>Aircraft/Instruments-3d/ki266/ki266.xml</path>
+		<offsets>
+				<x-m>-2.24</x-m>
+			<y-m>0.207</y-m>
+			<z-m>0.358</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/kcs55/ka51b.xml</path>
+		<offsets>
+			<x-m>-2.238</x-m>
+			<y-m>0.263</y-m>
+			<z-m>0.358</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>VSI</name>
+		<path>Aircraft/BO-105/Instruments/vsi/vsi.xml</path>
+		<offsets>
+			<x-m>-2.240</x-m>
+			<y-m>0.308</y-m>
+			<z-m>0.425</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- 3rd row -->
+	
+	<model>
+		<name>MMI</name>
+		<path>Aircraft/BO-105/Instruments/MMI/mmi.xml</path>
+		<offsets>
+			<x-m>-2.235</x-m>
+			<y-m>-0.08</y-m>
+			<z-m>0.335</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	
+	
+	<model>
+		<name>CLOCK</name>
+		<path>Aircraft/BO-105/Instruments/clock/clock.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.01</y-m>
+			<z-m>0.32</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>GSDI</name>
+		<desc>Ground Speed Drift Indicator</desc>
+		<path>Aircraft/BO-105/Instruments/gsdi/gsdi.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.097</y-m>
+			<z-m>0.325</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+		<condition>
+			<property>instrumentation/gsdi/enabled</property>
+		</condition>
+	</model>
+	
+	<!-- Engine panel -->
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/n1_1.xml</path>
+		<offsets>
+			<x-m>-2.225</x-m>
+			<y-m>0.015</y-m>
+			<z-m>0.22</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>		
+	
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/n1_2.xml</path>
+		<offsets>
+			<x-m>-2.225</x-m>
+			<y-m>0.095</y-m>
+			<z-m>0.22</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>		
+		
+		
+		
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/temp.xml</path>
+		<offsets>
+		<x-m>-2.215</x-m>
+			<y-m>0.015</y-m>
+			<z-m>0.16</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.35</y-offset>
+    <z-offset>1.35</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>		
+
+
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/temp2.xml</path>
+		<offsets>
+		<x-m>-2.215</x-m>
+			<y-m>0.095</y-m>
+			<z-m>0.16</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.35</y-offset>
+    <z-offset>1.35</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>			
+		
+		
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/oil_temp.xml</path>
+		<offsets>
+		<x-m>-2.212</x-m>
+			<y-m>0.015</y-m>
+			<z-m>0.1</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.35</y-offset>
+    <z-offset>1.35</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>			
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/oil_temp2.xml</path>
+		<offsets>
+		<x-m>-2.212</x-m>
+			<y-m>0.095</y-m>
+			<z-m>0.1</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.35</y-offset>
+    <z-offset>1.35</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/fuel/fuelqty.xml</path>
+		<offsets>
+			<x-m>-2.22</x-m>
+			<y-m>-0.078</y-m>
+			<z-m>0.234</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>	
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/mgb_temp.xml</path>
+		<offsets>
+			<x-m>-2.218</x-m>
+			<y-m>-0.059</y-m>
+			<z-m>0.201</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/engine/oilpsi.xml</path>
+		<offsets>
+			<x-m>-2.218</x-m>
+			<y-m>-0.098</y-m>
+			<z-m>0.201</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.05</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/surround/surround.xml</path>
+		<offsets>
+			<x-m>-2.225</x-m>
+			<y-m>-0.0784</y-m>
+			<z-m>0.21</z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.15</y-offset>
+    <z-offset>1.13</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/LT/LT.xml</path>
+		<offsets>
+			 <x-m> -2.26 </x-m>
+<y-m>  -0.0015 </y-m>
+<z-m>  0.4685 </z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.6</y-offset>
+    <z-offset>0.6</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>		
+		
+		<!-- Warning light test button -->
+		<model>
+		
+		<path>Aircraft/BO-105/Instruments/Switch/wltest.xml</path>
+		<offsets>
+			 <x-m> -2.253 </x-m>
+<y-m>  0.017 </y-m>
+<z-m>  0.469 </z-m>
+			<pitch-deg>-6</pitch-deg>
+		</offsets>
+
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.15</y-offset>
+    <z-offset>1.13</z-offset>
+   </animation>
+  </overlay>
+		
+		
+		</model>		
+	
+
+<!-- centre console -->
+<!--<model>
+		
+		<path>Aircraft/BO-105/Instruments/ar-6201/ar-6201.xml</path>
+		<offsets>
+			<x-m>-2.012</x-m>
+			<y-m>-0.072</y-m>
+			<z-m>0.065</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/ar-6201/ar-6201b.xml</path>
+		<offsets>
+			<x-m>-2.012</x-m>
+			<y-m>0.025</y-m>
+			<z-m>0.065</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+	
+	-->
+
+<model>
+		
+		<path>Aircraft/BO-105/Instruments/kx165/kx165-1.xml</path>
+		<offsets>
+			<x-m>-1.93</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.095</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/kx165/kx165-2.xml</path>
+		<offsets>
+			<x-m>-1.88</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.095</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/GNS430/GNS430.xml</path>
+		<offsets>
+			<x-m>-2.017</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.075</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+
+<!--	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/kns80/kns80.xml</path>
+		<offsets>
+			<x-m>-1.864</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.095</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+-->
+ <model>
+		
+		<path>Aircraft/BO-105/Instruments/GTX327/gtx-327/gtx-327.xml</path>
+		<offsets>
+			<x-m>-1.847</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.095</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/BO-105/Instruments/kma20/kma20.xml</path>
+		<offsets>
+			<x-m>-1.805</x-m>
+			<y-m>-0.045</y-m>
+			<z-m>0.087</z-m>
+			<pitch-deg>-90</pitch-deg>
+		</offsets>
+	</model>
+	
+<!-- Warning panel stuff -->
+ <animation>
+  <type>material</type>
+  <object-name>ft1</object-name>
+  <object-name>ft2</object-name>
+  <object-name>low</object-name>
+   <object-name>fuel</object-name>
+   <object-name>rpm</object-name>
+   <object-name>hv</object-name>
+   <object-name>block</object-name>
+    <object-name>tcl</object-name>
+	<object-name>gen1</object-name>
+	<object-name>gen2</object-name>
+	<object-name>flt1</object-name>
+	<object-name>flt2</object-name>
+	<object-name>hyd1</object-name>
+	<object-name>hyd2</object-name>
+	<object-name>mag1</object-name>
+	<object-name>plug1</object-name>
+	<object-name>mag2</object-name>
+	<object-name>plug2</object-name>
+	<object-name>start1</object-name>
+	<object-name>start2</object-name>
+	<object-name>bat60</object-name>
+	<object-name>bat70</object-name>
+	<object-name>oil</object-name>
+	<object-name>cool</object-name>
+	<object-name>tplug</object-name>
+  <ambient>
+    <red>0.0</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>1</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>
+ 
+<text>
+  <name>ft1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.095</character-size>
+  <offsets>
+  <x-m> -2.259 </x-m>
+<y-m>  -0.055 </y-m>
+<z-m>  0.6 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">.</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <animation>
+        <type>select</type>
+      
+    <object-name>ft1</object-name>
+	
+        <condition>
+	
+			<equals>
+				<property>controls/electric/engine/firetest</property>
+						<value>true</value>
+					</equals>
+	
+					
+			</condition>
+    </animation>
+ 
+<text>
+  <name>ft2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.095</character-size>
+  <offsets>
+  <x-m> -2.259 </x-m>
+<y-m>  0.044 </y-m>
+<z-m>  0.6 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">.</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ 
+  <animation>
+        <type>select</type>
+      
+    <object-name>ft2</object-name>
+	
+        <condition>
+	
+			<equals>
+				<property>controls/electric/engine[1]/firetest</property>
+						<value>true</value>
+					</equals>
+	
+					
+			</condition>
+    </animation>
+
+
+<text>
+  <name>low</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2643 </x-m>
+<y-m>  -0.006 </y-m>
+<z-m>  0.59 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">LOW</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 
+ 
+ <text>
+  <name>fuel</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.26405 </x-m>
+<y-m>  -0.0067 </y-m>
+<z-m>  0.587 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">FUEL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 
+ 
+<animation>
+        <type>select</type>
+      
+    <object-name>fuel</object-name>
+	 <object-name>low</object-name>
+        <condition>
+		<or>
+			<less-than>
+				<property>consumables/fuel/total-fuel-lbs</property>
+						<value>182</value>
+					</less-than>
+				
+				 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>
+	   
+	   </or>
+					
+			</condition>
+    </animation>
+	
+	<text>
+  <name>rpm</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.26405 </x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.589 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">RPM</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 
+ 
+ <animation>
+        <type>select</type>
+      
+    <object-name>rpm</object-name>
+	 
+        <condition>
+		<or>
+		<less-than>
+				<property>rotors/main/rpm</property>
+						<value>360</value>
+					</less-than>
+
+			
+				
+              <greater-than>
+				<property>rotors/main/rpm</property>
+						<value>460</value>
+					</greater-than>				
+					
+			 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>		
+				</or>	
+					
+			</condition>
+    </animation>
+	
+	
+<text>
+  <name>hv</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2636 </x-m>
+<y-m>  -0.0055 </y-m>
+<z-m>  0.583 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">HV</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 
+
+<text>
+  <name>block</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.263 </x-m>
+<y-m>  -0.0085 </y-m>
+<z-m>  0.580 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">BLOCK</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 
+
+
+	
+<text>
+  <name>tcl</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2629 </x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.582 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">TCL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text> 	
+ 
+
+
+ 
+ <text>
+  <name>gen1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.261 </x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.568 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">GEN1</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+<animation>
+        <type>select</type>
+      
+    <object-name>gen1</object-name>
+	 
+        <condition>
+		<or>
+		
+				<equals>
+				<property>controls/electric/engine/generator</property>
+						<value>true</value>
+					</equals>	
+			 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>
+
+</or>	   
+					
+			</condition>
+    </animation>
+ 
+ 
+  <text>
+  <name>gen2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.261 </x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.56 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">GEN2</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ 
+<animation>
+        <type>select</type>
+      
+    <object-name>gen2</object-name>
+	 
+        <condition>
+		<or>
+		
+				<equals>
+				<property>controls/electric/engine[1]/generator</property>
+						<value>true</value>
+					</equals>	
+				
+				 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>
+				
+</or>				
+			</condition>
+    </animation>
+	
+	
+	 <text>
+  <name>flt1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.261 </x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.568 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">FLT1</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>flt2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.261 </x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.56 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">FLT2</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ 
+  <text>
+  <name>hyd1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2599</x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.548 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">HYD1</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>hyd2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.259 </x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.54 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">HYD2</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+   <text>
+  <name>mag1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.26</x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.5494 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">MAG</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>plug1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2597</x-m>
+<y-m>  0.0142 </y-m>
+<z-m>  0.5465 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">PLUG1</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>mag2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2593</x-m>
+<y-m>  0.015 </y-m>
+<z-m>  0.5423 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">MAG</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+   <text>
+  <name>plug2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+ <x-m> -2.2588</x-m>
+<y-m>  0.0142 </y-m>
+<z-m>  0.539 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">PLUG2</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>start1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.25756 </x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.526 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">START1</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+<animation>
+        <type>select</type>
+      
+    <object-name>start1</object-name>
+	 
+        <condition>
+		<or>
+		
+				<equals>
+				<property>controls/engines/engine/starter</property>
+						<value>true</value>
+					</equals>	
+			
+ <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>
+</or>	   
+					
+			</condition>
+    </animation>
+	
+	 <text>
+  <name>start2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2567 </x-m>
+<y-m>  -0.0075 </y-m>
+<z-m>  0.518 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">START2</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+<animation>
+        <type>select</type>
+      
+    <object-name>start2</object-name>
+	 
+        <condition>
+		<or>
+		
+				<equals>
+				<property>controls/engines[1]/engine/starter</property>
+						<value>true</value>
+					</equals>	
+				
+			 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>
+
+</or>	   
+			</condition>
+    </animation>
+	
+	 <text>
+  <name>bat60</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.25756 </x-m>
+<y-m>  0.014 </y-m>
+<z-m>  0.526 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">BAT 60</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>bat70</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+<x-m> -2.2567 </x-m>
+<y-m>  0.014 </y-m>
+<z-m>  0.518 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">BAT 70</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ 
+  <text>
+  <name>oil</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.25556 </x-m>
+<y-m>  0.017 </y-m>
+<z-m>  0.507 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">OIL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>cool</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2552 </x-m>
+<y-m>  0.0149 </y-m>
+<z-m>  0.504 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">COOL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <animation>
+        <type>select</type>
+      
+    <object-name>oil</object-name>
+	 <object-name>cool</object-name>
+        <condition>
+		
+		<or>
+				<less-than>
+				<property>engines/engine/oil-temperature-degc</property>
+						<value>31</value>
+					</less-than>	
+				<less-than>
+				<property>engines/engine[1]/oil-temperature-degc</property>
+						<value>31</value>
+					</less-than>
+					
+			 <equals>
+      <property>controls/electric/warningtest</property>
+	   <value>true</value>
+	   </equals>		
+		</or>			
+			</condition>
+    </animation>
+ 
+ 
+  <text>
+  <name>tplug</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0035</character-size>
+  <offsets>
+  <x-m> -2.2545 </x-m>
+<y-m>  0.0137 </y-m>
+<z-m>  0.498 </z-m>
+<pitch-deg> -10 </pitch-deg>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">T PLUG</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+<animation>
+        <type>select</type>
+ 
+   <object-name>hv</object-name>
+   <object-name>block</object-name>
+    <object-name>tcl</object-name>
+	
+	<object-name>flt1</object-name>
+	<object-name>flt2</object-name>
+	<object-name>hyd1</object-name>
+	<object-name>hyd2</object-name>
+	<object-name>mag1</object-name>
+	<object-name>plug1</object-name>
+	<object-name>mag2</object-name>
+	<object-name>plug2</object-name>
+	
+	<object-name>bat60</object-name>
+	<object-name>bat70</object-name>
+	
+	<object-name>tplug</object-name>
+        <condition>
+		
+		
+				<equals>
+				<property>controls/electric/warningtest</property>
+						<value>true</value>
+					</equals>	
+				
+					
+			</condition>
+    </animation>
+ 
+</PropertyList>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<path>mainrotor.ac</path>
+
+ <model>
+		<name>b1</name>
+    <path>Aircraft/BO-105/Models/rotors/blade1.xml</path>
+    <offsets> 
+      <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+<pitch-deg>0</pitch-deg>
+    </offsets>
+	</model>
+	
+	<model>
+		<name>b2</name>
+    <path>Aircraft/BO-105/Models/rotors/blade2.xml</path>
+    <offsets> 
+      <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+<heading-deg>-90</heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+		<name>b3</name>
+    <path>Aircraft/BO-105/Models/rotors/blade3.xml</path>
+    <offsets> 
+      <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+<heading-deg>-180</heading-deg>
+    </offsets>
+	</model>
+
+<model>
+		<name>b4</name>
+    <path>Aircraft/BO-105/Models/rotors/blade4.xml</path>
+    <offsets> 
+      <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+<heading-deg>-270</heading-deg>
+    </offsets>
+	</model>
+	
+	<animation>
+        <name>fullrotor</name>
+		<object-name>MainHub</object-name>
+                <object-name>b1</object-name>
+		<object-name>b2</object-name>
+		<object-name>b3</object-name>
+                <object-name>b4</object-name>
+    </animation>
+	
+	
+
+  
+	
+<animation>
+        <type>spin</type>
+       <object-name>fullrotor</object-name>
+	
+        <property>rotors/main/rpm</property>
+	<factor>0.7</factor>
+        <center>
+          
+            <x-m> 0.000</x-m>
+            <y-m>0.000</y-m>
+            <z-m> 1.608</z-m>
+        </center>
+        <axis>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>1.0</z>
+	   
+        </axis>
+    </animation>
+	
+	
+
+
+</PropertyList>

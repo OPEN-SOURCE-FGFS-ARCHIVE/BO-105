@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<path>powerpanel.ac</path>
+        
+        <animation>
+            <type>material</type>
+            <object-name>powerholder</object-name>	
+            <object-name>pl1.001</object-name>
+            <object-name>pk1.001</object-name>
+            <object-name>fl1.001</object-name>
+            <object-name>fk1.001</object-name>
+            <object-name>fl1</object-name>
+            <object-name>fk1</object-name>
+            <object-name>pl1</object-name>
+            <object-name>pk1</object-name>
+        </animation>
+        
+        
+
+	<effect>
+		<inherits-from>Effects/interior/bo105-interior</inherits-from>
+                <object-name>powerholder</object-name>	
+		<object-name>fk1</object-name>
+		<object-name>fk1.001</object-name>
+		<object-name>fl1</object-name>
+		<object-name>fl1.001</object-name>
+		<object-name>pk1</object-name>
+		<object-name>pk1.001</object-name>
+		<object-name>pl1</object-name>
+		<object-name>pl1.001</object-name>
+	</effect>
+
+<animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>200</max-m>
+ </animation>
+ 
+ <animation>
+<type>rotate</type>
+<object-name>pl1</object-name>
+
+
+
+<property>controls/engines/engine/power</property>
+<factor>80</factor>
+<center>
+<x-m>-1.64671</x-m>
+<y-m>-0.04799</y-m>
+<z-m>0.9549</z-m>
+</center>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+
+<animation>
+<type>rotate</type>
+<object-name>pl1.001</object-name>
+
+
+
+<property>controls/engines/engine[1]/power</property>
+<factor>80</factor>
+<center>
+<x-m>-1.64671</x-m>
+<y-m>0.04657</y-m>
+<z-m>0.9549</z-m>
+</center>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+</PropertyList>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">SPECTRE (N133EH)</name>
+      <texture>Liveries/N133EH.png</texture>
+    </livery>
+   <bo105>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</bo105>
+  </model>
+  <rendering>
+    <refl_correction type="string">-0.6</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+</sim>
+</PropertyList>

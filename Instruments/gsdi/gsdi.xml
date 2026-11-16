@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>gsdi.ac</path>
+
+	<effect>
+		<inherits-from>../../Models/Effects/interior/bo105-interior</inherits-from>
+		<object-name>vneedle</object-name>
+		<object-name>uneedle</object-name>
+		<object-name>Face</object-name>
+	</effect>
+
+		<animation>
+		<type>material</type>
+			<object-name>uneedle</object-name>
+			<object-name>vneedle</object-name>
+		
+			 <object-name>Face</object-name>
+           
+		<emission>
+			<red>0.48</red>
+			<green>0.80</green>
+			<blue>0.44</blue>
+<factor-prop>controls/lighting/instrument-lights-norm</factor-prop>
+		</emission>
+	</animation> 
+	
+	
+	<animation>
+		<type>translate</type>
+		<object-name>uneedle</object-name>
+		<property>instrumentation/gsdi/drift-u-kt</property>
+		<factor>0.005</factor>
+		<min-m>-0.03</min-m>
+		<max-m>0.03</max-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>vneedle</object-name>
+		<property>instrumentation/gsdi/drift-v-kt</property>
+		<factor>0.005</factor>
+		<min-m>-0.03</min-m>
+		<max-m>0.03</max-m>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	
+	
+	<!-- Coompositor lights-->
+  
+  <light>
+  <name>dash1</name>
+  <type>spot</type>
+  <position>
+    <x-m>0.03</x-m>
+    <y-m>0.0</y-m>
+    <z-m>0</z-m>
+  </position>
+  <direction>
+    <x>-1.0</x>
+    <y>0</y>
+    <z>0</z>
+  </direction>
+  <ambient>
+    <r>0</r>
+    <g>0</g>
+    <b>1</b>
+    <a>1</a>
+  </ambient>
+  <diffuse>
+    <r>0</r>
+    <g>1</g>
+    <b>0</b>
+    <a>1</a>
+  </diffuse>
+  <specular>
+    <r>0</r>
+    <g>1</g>
+    <b>0</b>
+    <a>1</a>
+  </specular>
+    <color>
+      <r>0.8</r>
+      <g>0.5</g>
+      <b>0.5</b>
+      <a>1.0</a>
+    </color>
+ <attenuation>
+    <c>1</c>
+    <l>1.5</l>
+    <q>3.5</q>
+  </attenuation>
+  <spot-exponent>1</spot-exponent>
+  <spot-cutoff>70</spot-cutoff>
+  <range-m>0.05</range-m>
+   <intensity>0.13</intensity>
+  <dim-factor>
+    <property>systems/electrical/outputs/instrument-lights</property>
+  </dim-factor>
+ 
+</light>
+
+
+<animation>
+  <type>select</type>
+  <object-name>dash1</object-name>
+		
+  <condition>
+  
+   <equals>
+    <property>controls/lighting/turn-off-lights</property>
+    <value>true</value>
+   </equals>
+  
+  </condition>
+</animation>
+	
+</PropertyList>
